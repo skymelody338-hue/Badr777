@@ -1,0 +1,99 @@
+body {
+    background-color: whitesmoke;
+    font-family: "Reem Kufi Fun", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+h1 {
+    color: darkseagreen;
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: forestgreen;
+    font-size: 30px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    font-size: 23px;
+    font-style: oblique;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'Rakkas', Arial, Helvetica, sans-serif;
+}
+
+.highlight {
+    color: rosybrown;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+#main-title {
+    color: darkseagreen;
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 1px 1px 2px #ceb888;
+}
+
+img {
+    width: 400px;
+    border: 5px solid darkolivegreen;
+    border-radius: 15px;
+    display: block;
+    margin: 15px auto;
+}
+
+h3 {
+    font-family: 'Reem Kufi Fun';
+    color: black;
+}
+
+.foundation-day {
+    background-color: #4a3728;
+    color: #ceb888;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 3px solid #ceb888;
+    margin-bottom: 20px;
+}
+    nav a:hover {
+    color: #ceb888;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+img:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        color: white;
+    }
+    nav {
+        display: none;
+        flex-direction: column;
+    }
+    #menu.show {
+        display: flex important;
+       
+    } 
+    
+} 
