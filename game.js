@@ -3,7 +3,6 @@ function toggleMenu() {
   menu.classList.toggle("show");
 }
 
-
 window.onload = function() {
   console.log("مرحباً بك في صفحة محافظة بدر التاريخية"); 
 }
@@ -12,7 +11,8 @@ function toggleMenu() {
     const menu = document.getElementById("menu");
     if (menu.style.display === "flex") {
         menu.style.display = "none";
-    } else {
+    } 
+    else {
         menu.style.display = "flex";
     }
 }
